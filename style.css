@@ -1,5 +1,6 @@
 :root {
     --primary-color:rgb(12, 12, 12);
+    --card-border-redius: 7px;
 }
 * {
     margin: 0;
@@ -9,7 +10,37 @@
 body {
     font-family: serif;
     font-size: 14px;
-    display: flex;
-    align-items: center;
-    margin: 2rem;
+}
+.card-container {
+    width: auto;
+    display: grid;
+    margin: 35px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+.card {
+}
+.card-link {
+
+}
+.card-img {
+
+}
+.card-category {
+
+}
+.card-description {
+
+}
+.card-post-info {
+
+}
+.card-avatar {
+
+}
+.card-author {
+
+}
+.card-date {
+
 }
